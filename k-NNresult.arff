@@ -1,0 +1,11 @@
+@relation testKNN_predicted_predicted
+
+@attribute feiji numeric
+@attribute binqilin numeric
+@attribute youxi numeric
+@attribute 'prediction margin' numeric
+@attribute 'predicted leixing' {largeDoses,smallDoses,didntLike}
+@attribute leixing {largeDoses,smallDoses,didntLike}
+
+@data
+10000,10,0.5,-0.59964,smallDoses,?

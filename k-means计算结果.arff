@@ -1,0 +1,24 @@
+@relation k-means-weka.filters.unsupervised.attribute.Normalize-S1.0-T0.0-unset-class-temporarily_clustered
+
+@attribute Instance_number numeric
+@attribute 2006World numeric
+@attribute 2010World numeric
+@attribute 2007Asia numeric
+@attribute Cluster {cluster0,cluster1,cluster2}
+
+@data
+0,1,1,0.5,cluster0
+1,0.333333,0,0.1875,cluster1
+2,0,0.146341,0.125,cluster1
+3,0.242424,0.756098,0.25,cluster1
+4,0.333333,0.756098,0.0625,cluster1
+5,1,1,0,cluster0
+6,1,0.756098,0.5,cluster0
+7,1,0.756098,0.5,cluster0
+8,0.69697,0.756098,0.25,cluster2
+9,1,1,0.5,cluster0
+10,1,1,0.25,cluster0
+11,1,1,0.5,cluster0
+12,0.69697,0.756098,0.5,cluster2
+13,0.69697,0.560976,1,cluster2
+14,1,1,0.5,cluster0

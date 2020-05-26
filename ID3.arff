@@ -1,0 +1,16 @@
+@relation surpermarket-weka.filters.unsupervised.attribute.ClassAssigner-Clast-weka.filters.unsupervised.attribute.ClassAssigner-Clast-weka.filters.unsupervised.attribute.StringToNominal-Rlast-weka.filters.unsupervised.attribute.StringToNominal-R1-4-weka.filters.unsupervised.attribute.NominalToString-C1-4-weka.filters.unsupervised.attribute.StringToNominal-Rlast-weka.filters.unsupervised.attribute.StringToNominal-R1-4
+
+@attribute Height {Short,Tall}
+@attribute Hair {Blond,Red,Dark}
+@attribute Eyes {Blue,Brown,no}
+@attribute Class {+,-}
+
+@data
+Short,Blond,Blue,+
+Short,Blond,Brown,-
+Tall,Red,Blue,+
+Tall,Dark,Blue,-
+Tall,Dark,Blue,-
+Tall,Blond,Blue,+
+Tall,Dark,Brown,-
+Short,Blond,no,-
